@@ -1,0 +1,36 @@
+0 verbose cli /usr/local/bin/node /usr/local/lib/node_modules/npm/bin/npm-cli.js
+1 info using npm@10.8.1
+2 info using node@v20.16.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/sudheerkumarthota/Desktop/Projects/Claw project/.npmrc
+5 silly config load:file:/Users/sudheerkumarthota/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm exec create-vite@4.5.2 frontend -- --template react
+8 verbose argv "exec" "--" "create-vite@4.5.2" "frontend" "--" "--template" "react"
+9 verbose logfile logs-max:10 dir:/Users/sudheerkumarthota/Desktop/Projects/Claw project/.npm-cache/_logs/2026-02-05T19_29_17_540Z-
+10 verbose logfile /Users/sudheerkumarthota/Desktop/Projects/Claw project/.npm-cache/_logs/2026-02-05T19_29_17_540Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 http fetch GET 200 https://registry.npmjs.org/create-vite 143ms (cache revalidated)
+14 verbose type version
+15 verbose stack create-vite: No matching version found for create-vite@4.5.2.
+15 verbose stack     at module.exports (/usr/local/lib/node_modules/npm/node_modules/npm-pick-manifest/lib/index.js:209:23)
+15 verbose stack     at RegistryFetcher.manifest (/usr/local/lib/node_modules/npm/node_modules/pacote/lib/registry.js:130:54)
+15 verbose stack     at async getManifest (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:27:22)
+15 verbose stack     at async missingFromTree (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:56:22)
+15 verbose stack     at async /usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:178:32
+15 verbose stack     at async Promise.all (index 0)
+15 verbose stack     at async exec (/usr/local/lib/node_modules/npm/node_modules/libnpmexec/lib/index.js:176:3)
+15 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+15 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+16 error code ETARGET
+17 error notarget No matching version found for create-vite@4.5.2.
+18 error notarget In most cases you or one of your dependencies are requesting
+18 error notarget a package version that doesn't exist.
+19 verbose cwd /Users/sudheerkumarthota/Desktop/Projects/Claw project
+20 verbose os Darwin 25.2.0
+21 verbose node v20.16.0
+22 verbose npm  v10.8.1
+23 verbose exit 1
+24 verbose code 1
+25 error A complete log of this run can be found in: /Users/sudheerkumarthota/Desktop/Projects/Claw project/.npm-cache/_logs/2026-02-05T19_29_17_540Z-debug-0.log
